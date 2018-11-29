@@ -1,3 +1,4 @@
+#/usr/share/gnome-session/sessions/awesome.session
 [GNOME Session]
 Name=Awesome session
 RequiredComponents=awesome;gnome-settings-daemon;
