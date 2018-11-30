@@ -1,3 +1,6 @@
+--Configure home path so you dont have too
+home_path  = os.getenv('HOME') .. '/'
+
 -- Standard awesome library
 local gears = require("gears")
 local awful = require("awful")
