@@ -29,6 +29,4 @@ mv -vi .Xresources ~/.Xresources
 mkdir -p ~/.config/kitty
 mv -vi kitt.conf ~/.config/kitty/kitty.conf
 mv -vi Icons.bdf ~/.fonts/bitmap/Icons.bdf
-# add these to xinitrc?
-xset +fp ~/.fonts/bitmap/
-xset fp rehash
+mv -vi .xprofile ~/.xprofile
