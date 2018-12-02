@@ -7,6 +7,7 @@ IFS=$'\n\t'
 trap 'echo Error at about $LINENO' ERR
 
 # awesome kitty emacs 
+# xfce4-power-manager xscreensaver pulseaudio volti udiskie
 # unclutter firefox scrot mpd mpc dmenu xsel slock
 
 # Grab configs
