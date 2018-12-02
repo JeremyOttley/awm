@@ -6,6 +6,9 @@ IFS=$'\n\t'
 
 trap 'echo Error at about $LINENO' ERR
 
+# awesome kitty emacs 
+# unclutter firefox scrot mpd mpc dmenu xsel slock
+
 # Grab configs
 git clone https://github.com/jeremyottley/xmo.git ~/.xmonad
 git clone https://github.com/jeremyottley/.fonts.git ~/.fonts && sudo fc-cache -vf
@@ -24,3 +27,7 @@ git clone https://github.com/jeremyottley/.pandoc.git ~/.pandoc
 mv -vi .Xresources ~/.Xresources
 mkdir -p ~/.config/kitty
 mv -vi kitt.conf ~/.config/kitty/kitty.conf
+mv -vi Icons.bdf ~/.fonts/bitmap/Icons.bdf
+# add these to xinitrc?
+xset +fp ~/.fonts/bitmap/
+xset fp rehash
