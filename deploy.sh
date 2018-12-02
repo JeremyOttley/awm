@@ -18,6 +18,6 @@ git clone https://github.com/jeremyottley/Startpages.git ~/.startpages
 git clone https://github.com/jeremyottley/.pandoc.git ~/.pandoc
 
 # Set Up Themes
-git clone --recursive https://github.com/lcpz/awesome-copycats.git
-mv -bv awesome-copycats/* ~/.config/awesome; rm -rf awesome-copycats
+#git clone --recursive https://github.com/lcpz/awesome-copycats.git
+#mv -bv awesome-copycats/* ~/.config/awesome; rm -rf awesome-copycats
 
