@@ -22,3 +22,5 @@ git clone https://github.com/jeremyottley/.pandoc.git ~/.pandoc
 #mv -bv awesome-copycats/* ~/.config/awesome; rm -rf awesome-copycats
 
 mv -vi .Xresources ~/.Xresources
+mkdir -p ~/.config/kitty
+mv -vi kitt.conf ~/.config/kitty/kitty.conf
