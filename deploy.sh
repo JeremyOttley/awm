@@ -11,7 +11,6 @@ trap 'echo Error at about $LINENO' ERR
 # unclutter firefox scrot mpd mpc dmenu xsel slock
 
 # Grab configs
-git clone https://github.com/jeremyottley/xmo.git ~/.xmonad
 git clone https://github.com/jeremyottley/.fonts.git ~/.fonts && sudo fc-cache -vf
 git clone https://github.com/jeremyottley/.org.git ~/.org
 git clone https://github.com/jeremyottley/.Xresources.d.git ~/.Xresources.d
