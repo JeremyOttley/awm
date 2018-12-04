@@ -28,5 +28,4 @@ mv -bv awesome-copycats/* ~/.config/awesome; rm -rf awesome-copycats
 mv -vi .Xresources ~/.Xresources
 mkdir -p ~/.config/kitty
 mv -vi kitt.conf ~/.config/kitty/kitty.conf
-mv -vi Icons.bdf ~/.fonts/bitmap/Icons.bdf
 mv -vi .xprofile ~/.xprofile
