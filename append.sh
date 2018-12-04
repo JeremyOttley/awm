@@ -6,7 +6,7 @@ IFS=$'\n\t'
 
 trap 'echo Error at about $LINENO' ERR
 
-trizen -Syu --noconfirm awesome emacs qutebrowser kitty xfce4-power-manager xscreensaver
+trizen -Syu --noconfirm virtualbox-guest-dkms awesome emacs qutebrowser kitty xfce4-power-manager xscreensaver
 # awesome kitty emacs qutebrowser
 # xfce4-power-manager xscreensaver pulseaudio volti udiskie
 # unclutter firefox scrot mpd mpc dmenu xsel slock
