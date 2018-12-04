@@ -15,7 +15,7 @@ local my_table = awful.util.table or gears.table -- 4.{0,1} compatibility
 
 local theme                                     = {}
 theme.dir                                       = os.getenv("HOME") .. "/.config/awesome/themes/blackburn"
-theme.wallpaper                                 = theme.dir .. "/wall.png"
+theme.wallpaper                                 = os.getenv("HOME") .. "/.wallpapers/crack.jpg"
 theme.font                                      = "Misc Tamsyn 10.5"
 theme.taglist_font                              = "Icons 10"
 theme.fg_normal                                 = "#D7D7D7"
