@@ -1,9 +1,5 @@
 --Configure home path so you dont have too
 home_path  = os.getenv('HOME') .. '/'
-
-config_dir = awful.util.getdir("config")
-theme_dir = awful.util.getdir("config") .. "/themes"
-lua_scripts = awful.util.getdir("config") .. "/scripts"
 script_dir = awful.util.getdir(os.getenv("HOME")) .. "/bin"
 
 -- Standard awesome library
