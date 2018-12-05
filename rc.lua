@@ -53,6 +53,9 @@ client.connect_signal("focus", function(c)
     end
 end)
 
+-- Set Wallpaper
+--beautiful.get().wallpaper = "/home/gazbit/.wallpapers/crackle.jpg"
+
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
 beautiful.init(awful.util.getdir("config") .. "/themes/blackburn/theme.lua")
